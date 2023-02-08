@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: public.ecr.aws/datadog/lambda-extension:latest
-  # tag: 0.1
+  repository: public.ecr.aws/datadog/lambda-extension
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
